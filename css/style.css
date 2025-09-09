@@ -31,3 +31,13 @@ textarea,
 select {
   font: inherit;
 }
+
+.main-wrapper {
+  display: grid;
+  grid-template-columns: 256px auto auto;
+}
+
+.sidebar {
+  padding: 1rem;
+  border-right: 1px solid #e5e5e5;
+}
