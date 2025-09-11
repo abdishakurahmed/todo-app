@@ -45,16 +45,24 @@ select {
 .logo-div {
   display: flex;
   align-items: center;
+  margin-bottom: 32px;
 }
 .logo-div img {
-  width: 50px;
-  height: 50px;
-  display: inline;
+  width: 40px;
+  height: 40px;
 }
 
 .logo-name {
-  display: inline;
   font-size: 1.5rem;
   font-weight: 700;
   margin-left: 1rem;
+}
+
+.sidebar-sub {
+  padding: 0 12px;
+  color: #737373;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1rem;
+  letter-spacing: 0.05rem;
 }
