@@ -71,6 +71,8 @@ p.tasks-para {
   margin-top: 0.375rem;
   padding: 0.625rem 0.75rem;
   color: #525252;
+  display: flex;
+  font-weight: 500;
 }
 
 p.tasks-para:hover {
@@ -80,4 +82,15 @@ p.tasks-para:hover {
 
 a {
   text-decoration: none;
+}
+
+svg.sidebar-img {
+  height: 1.25rem;
+  width: 1.25rem;
+  stroke: #525252;
+  /* stroke-width: 2.5; */
+}
+
+svg.sidebar-img {
+  margin-right: 1rem;
 }
