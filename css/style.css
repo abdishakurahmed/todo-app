@@ -75,7 +75,8 @@ p.tasks-para {
   font-weight: 500;
 }
 
-p.tasks-para:hover {
+p.tasks-para:hover,
+p.categories-para:hover {
   background-color: #f5f5f5;
   border-radius: 0.375rem;
 }
@@ -93,4 +94,45 @@ svg.sidebar-img {
 
 svg.sidebar-img {
   margin-right: 1rem;
+}
+
+.categories-div {
+  margin-top: 0.5rem;
+  padding-top: 1.2rem;
+}
+
+p.categories-para {
+  padding: 0.5rem 0.75rem;
+  margin-top: 0.25rem;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+}
+
+p.categories-para {
+  font-weight: 500;
+  color: #525252;
+}
+
+span.ctg-icons {
+  width: 0.75rem;
+  height: 0.75rem;
+  margin-right: 1rem;
+  border-radius: 50%;
+}
+
+.work {
+  background-color: #bbf7d0;
+}
+
+.personal {
+  background-color: #f58af5;
+}
+
+.fitness {
+  background-color: #fef08a;
+}
+
+.shopping {
+  background-color: #bfdbfe;
 }
