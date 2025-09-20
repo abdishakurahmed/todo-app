@@ -32,14 +32,18 @@ select {
   font: inherit;
 }
 
-.main-wrapper {
-  display: grid;
-  grid-template-columns: 256px auto auto;
-}
-
 .sidebar {
+  position: fixed;
+  height: 100vh;
+  width: 16rem;
   padding: 1rem;
   border-right: 1px solid #e5e5e5;
+}
+
+.search-bar,
+.tasks-section {
+  margin-left: 16rem;
+  padding: 1.5rem;
 }
 
 .logo-div {
@@ -155,6 +159,9 @@ button.add-task-btn {
   border-radius: 0.5rem;
   width: 100%;
   justify-content: center;
+  position: fixed;
+  width: 14rem;
+  bottom: 1rem;
 }
 
 button.add-task-btn:hover {
