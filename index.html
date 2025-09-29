@@ -143,17 +143,52 @@
         </div>
       </section>
       <section class="search-bar section">
-        <div>
-          <p>All Tasks</p>
-          <div>
-            <img src="assets/images/search-svgrepo-com.svg" alt="seach icon" />
-            <input type="text" placeholder="Search Tasks" />
+        <div class="h1-div">
+          <h1 class="main-title">All Tasks</h1>
+        </div>
+        <div class="search-and-theme">
+          <div class="input-bar">
+            <svg
+              class="search-icon"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              stroke="#737373"
+            >
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g
+                id="SVGRepo_tracerCarrier"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></g>
+              <g id="SVGRepo_iconCarrier">
+                <path
+                  d="M15.7955 15.8111L21 21M18 10.5C18 14.6421 14.6421 18 10.5 18C6.35786 18 3 14.6421 3 10.5C3 6.35786 6.35786 3 10.5 3C14.6421 3 18 6.35786 18 10.5Z"
+                  stroke="#737373"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></path>
+              </g>
+            </svg>
+            <input
+              type="text"
+              class="input-search"
+              placeholder="Search tasks..."
+            />
           </div>
-          <div>
-            <img src="assets/images/dark-svgrepo-com.svg" alt="dark icon" />
-            <input type="radio" id="white" name="ui-state" checked />
-            <input type="radio" name="ui-state" id="dark" />
-            <img src="assets/images/moon-svgrepo-com.svg" alt="moon icon" />
+          <div class="theme-toggle-div">
+            <img
+              src="assets/images/sun-svgrepo-com.svg"
+              class="sun-icon"
+              alt="sun icon"
+            />
+            <button id="theme-toggle" class="toggle-btn"></button>
+            <img
+              src="assets/images/moon-svgrepo-com.svg"
+              class="moon-icon"
+              alt="moon icon"
+            />
           </div>
         </div>
       </section>
