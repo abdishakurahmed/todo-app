@@ -263,3 +263,74 @@ div.input-bar:active {
   align-items: center;
   gap: 0.5rem;
 }
+
+.info-para {
+  color: rgb(82, 82, 82);
+  margin-bottom: 1.5rem;
+}
+
+.tasks-ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0.75rem 1rem;
+  border: 1px solid #e5e5e5;
+  border-radius: 0.5rem;
+  margin-bottom: 0.75rem;
+  list-style: none;
+  cursor: pointer;
+  color: #262626;
+  font-weight: 500;
+  background-color: #fafafa;
+}
+
+li.tasks {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.checkbox-task {
+  margin-right: 0.75rem;
+  width: 1.25rem;
+  height: 1.25rem;
+  cursor: pointer;
+  accent-color: #3333ff;
+}
+
+.checked {
+  text-decoration: line-through;
+  color: #a3a3a3;
+}
+
+.date {
+  font-size: 0.875rem;
+  color: #737373;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: 400;
+  margin-left: 2rem;
+  font-style: italic;
+}
+
+svg.delete-icon {
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-left: auto;
+  stroke: #737373;
+  stroke-width: 2;
+}
+svg.delete-icon:hover {
+  stroke: #f45252;
+  transition: stroke 100ms ease-in-out;
+  cursor: pointer;
+  stroke-width: 2;
+}
+
+button.delete-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  margin-left: auto;
+  cursor: pointer;
+}
