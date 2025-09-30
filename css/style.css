@@ -313,24 +313,35 @@ li.tasks {
   font-style: italic;
 }
 
-svg.delete-icon {
+svg.delete-icon,
+svg.edit-icon {
   width: 1.25rem;
   height: 1.25rem;
   margin-left: auto;
   stroke: #737373;
   stroke-width: 2;
-}
-svg.delete-icon:hover {
-  stroke: #f45252;
   transition: stroke 100ms ease-in-out;
   cursor: pointer;
-  stroke-width: 2;
+}
+button.delete-btn:hover svg.delete-icon {
+  stroke: #f45252;
 }
 
-button.delete-btn {
+button.delete-btn,
+button.edit-btn {
   background: none;
   border: none;
   padding: 0;
-  margin-left: auto;
   cursor: pointer;
+}
+
+span.task-btns {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+button.edit-btn:hover svg.edit-icon {
+  stroke: #16b27e;
 }
