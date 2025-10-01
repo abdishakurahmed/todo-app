@@ -158,11 +158,16 @@ button.add-task-btn {
   display: flex;
   font-weight: 700;
   border-radius: 0.5rem;
-  width: 100%;
   justify-content: center;
-  position: fixed;
   width: 14rem;
+  position: fixed;
+  left: 1rem;
   bottom: 1rem;
+}
+
+div.add-task-div {
+  display: flex;
+  align-items: center;
 }
 
 button.add-task-btn:hover {
@@ -355,4 +360,46 @@ button.edit-btn:hover svg.edit-icon {
 .tasks-ul:hover span.task-btns {
   opacity: 1;
   pointer-events: auto;
+}
+
+/* mobile and tablet responsiveness */
+@media (max-width: 768px) {
+  .sidebar {
+    display: none;
+    position: static;
+    width: 100%;
+    height: auto;
+    border-right: none;
+    border-bottom: 1px solid #e5e5e5;
+  }
+
+  .search-bar,
+  .tasks-section {
+    margin-left: 0;
+    padding: 1rem;
+  }
+
+  button.add-task-btn {
+    left: auto;
+    right: 1rem;
+    bottom: 1rem;
+    width: auto;
+  }
+  .input-search {
+    width: 24rem;
+    max-width: 300px;
+  }
+  .search-and-theme {
+    gap: 1rem;
+    width: 100%;
+    justify-content: space-between;
+  }
+  section.search-bar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+  .theme-toggle-div {
+    margin-left: 0;
+  }
 }
