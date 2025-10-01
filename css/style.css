@@ -345,3 +345,14 @@ span.task-btns {
 button.edit-btn:hover svg.edit-icon {
   stroke: #16b27e;
 }
+
+.tasks-ul span.task-btns {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.tasks-ul:hover span.task-btns {
+  opacity: 1;
+  pointer-events: auto;
+}
