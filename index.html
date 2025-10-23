@@ -455,6 +455,33 @@
         </div>
       </section>
     </main>
+    <div class="modal-overlay">
+      <div class="task-modal">
+        <div>
+          <h3>Add New Task</h3>
+          <label for="title">Title</label>
+          <input type="text" name="title" id="title" />
+          <label for="date">Due Date</label>
+          <input type="date" name="DueDate" id="date" />
+          <label for="priority">Priority</label>
+          <select name="priority" id="priority">
+            <option value="low">Low</option>
+            <option value="medium">Medium</option>
+            <option value="high">High</option>
+          </select>
+          <label for="category">Category</label>
+          <select name="category" id="category">
+            <option value="personal">Personal</option>
+            <option value="work">Work</option>
+            <option value="fitness">Fitness</option>
+          </select>
+        </div>
+        <div class="btn-group">
+          <button type="reset" class="cancel-btn">Cancel</button>
+          <button type="submit" class="save-btn">Save Task</button>
+        </div>
+      </div>
+    </div>
     <script src="js/main.js"></script>
   </body>
 </html>
